@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="onlineStyle.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+
+   <style>
+    .container{
+      height: 630px;
+    }
+    .container .form-content{
+      min-height: 100%;
+    }
+   </style>
+<body>
+
+  <div class="container">
+    <input type="checkbox" id="flip">
+    <div class="cover">
+      <div class="front">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbMz-DNCZEJXOpRWEm7VKhq9W0qRmSriIbmqX20PG6nyp7txKoYdhaWJThtLudu9B3zVc&usqp=CAU" alt="">
+        <div class="text">
+          <span class="text-1">Every new friend is a <br> new adventure</span>
+          <span class="text-2">Let's get connected</span>
+        </div>
+      </div>
+      <div class="back">
+        <img class="backImg" src="https://media.licdn.com/dms/image/D4D12AQHL3ev-738Avw/article-cover_image-shrink_720_1280/0/1693404646855?e=2147483647&v=beta&t=BfgqigoIGafK9Pvj84whqXhY6SVpSG3TPPntivVAUZk" alt="">
+        <div class="text">
+          <span class="text-1">Complete miles of journey <br> with one step</span>
+          <span class="text-2">Let's get started</span>
+        </div>
+      </div>
+    </div>
+    <div class="back-button">
+      <a href="#" id="goBack"><i class="fa fa-chevron-circle-left"></i></a>
+    </div>
+    <div class="forms">
+        <div class="form-content">
+          <div class="login-form">
+            <div class="title">Admin Login</div>
+          <form action="ONlogin.php" method="POST">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                <input type="text" name="username" placeholder="Enter your username" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="loginPassword" placeholder="Enter your password" required>
+              </div>
+              
+              <div class="button input-box">
+                <input type="submit" value="Sumbit">
+              </div>
+            </div>
+        </form>
+      </div>
+    </div>
+    </div>
+  </div>
+
+<script>
+  document.getElementById('goBack').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent default link behavior
+    window.history.back(); // Go to previous page
+  });
+</script>
+
+</body>
+</html>

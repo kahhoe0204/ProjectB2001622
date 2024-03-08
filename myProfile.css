@@ -1,0 +1,87 @@
+body {
+    background: rgb(99, 39, 120)
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+
+.labels {
+    font-size: 11px
+}
+
+
+.btn:hover {
+    background-color: #deffdb;
+    cursor: pointer
+  }
+
+
+
+    .side-bar {
+        padding-bottom: 30px
+        }
+
+   .side-bar .side-menu {
+    text-align: center;
+    margin-top: 20px
+    }
+    
+    .side-bar .side-menu .nav {
+    display: inline-block;
+    margin: 0 auto
+    }
+    
+    .side-bar .side-menu .nav>li {
+    font-size: 14px;
+    margin-bottom: 0;
+    border-bottom: none;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px
+    }
+    
+   
+    
+    .side-bar .side-menu .nav>li>a {
+    display: inline-block;
+    color: #9499a3;
+    padding: 5px;
+    border-bottom: 2px solid transparent
+    }
+    
+    .side-bar .side-menu .nav>li>a:hover {
+    color: #616670;
+    background: none
+    }
+    
+    .side-bar .side-menu .nav>li.active a {
+    color: #40babd;
+    border-bottom: 2px solid #40babd;
+    background: none;
+    border-right: none
+    }
+    
+  
